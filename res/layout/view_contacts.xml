@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+    </ScrollView>
+    <AbsoluteLayout android:layout_width="match_parent" android:layout_height="495dp" android:layout_x="2dp"
+                    android:layout_y="-2dp">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="FirstName"
+                android:id="@+id/textViewFnameView" android:layout_x="10dp" android:layout_y="140dp"/>
+        <EditText
+                android:layout_width="251dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtfirstname" android:layout_x="116dp" android:layout_y="134dp"/>
+        <!--<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceMedium" android:text="LastName"
+                  android:id="@id/textViewLastName" android:layout_x="10dp" android:layout_y="62dp"/>-->
+        <EditText
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtLastname" android:layout_x="128dp" android:layout_y="52dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="CellPhoneNumber"
+                android:id="@+id/textViewCellPhoneNumView" android:layout_x="-3dp" android:layout_y="210dp"/>
+        <EditText
+                android:layout_width="236dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtcellnum" android:layout_x="135dp" android:layout_y="196dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="EmailAddress"
+                android:id="@+id/textViewEmailAddressView" android:layout_x="9dp" android:layout_y="293dp"/>
+        <EditText
+                android:layout_width="227dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtemail" android:layout_x="148dp" android:layout_y="284dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="HomeAddress"
+                android:id="@+id/textView" android:layout_x="7dp" android:layout_y="379dp"/>
+        <EditText
+                android:layout_width="219dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtAddress" android:layout_x="151dp" android:layout_y="367dp"
+                />
+    </AbsoluteLayout>
+</AbsoluteLayout>

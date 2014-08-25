@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+    <Button
+            android:layout_width="238dp"
+            android:layout_height="66dp"
+            android:text="Create Contact"
+            android:id="@+id/btncreatecontact" android:layout_x="76dp" android:layout_y="130dp"/>
+    <Button android:layout_width="252dp" android:layout_height="65dp" android:text="View Contacts" android:id="@+id/btnviewcontacts"
+            android:layout_x="68dp" android:layout_y="257dp"/>
+</AbsoluteLayout>
+
+</ScrollView>
